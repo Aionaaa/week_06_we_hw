@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Pokemon Box</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+        <script src="js/app.js"></script>
+  </head>
+  <body>
+    <form id="new-item-form">
+      <div class="form-wrapper">
+        <div class="form-item">
+          <label for="name">Name</label>
+          <input type="text" name="name" value="">
+          <label for="level">Level</label>
+          <input type="text" name="level" value="">
+          <label for="type">Type</label>
+          <select id="type">
+            <option value="" disabled selected></option>
+            <option value="Fire">Fire</option>
+            <option value="Water">Water</option>
+            <option value="Grass">Grass</option>
+            <option value="Electric">Electric</option>
+            <option value="Psychic">Psychic</option>
+            <option value="Ice">Ice</option>
+            <option value="Dragon">Dragon</option>
+            <option value="Dark">Dark</option>
+            <option value="Fairy">Fairy</option>
+            <option value="Normal">Normal</option>
+            <option value="Fighting">Fighting</option>
+            <option value="Flying">Flying</option>
+            <option value="Poison">Poison</option>
+            <option value="Ground">Ground</option>
+            <option value="Rock">Rock</option>
+            <option value="Bug">Bug</option>
+            <option value="Ghost">Ghost</option>
+            <option value="Steel">Steel</option>
+
+          </select>
+        </div>
+      </div>
+      <input type="submit" value="save"/>
+    </form>
+    <h1>My Caught Pokemon</h1>
+    <div id="caught-pokemon">
+      <ol id= "pokemon-list">
+
+      </ol>
+    <button id="delete-all">Delete All</button>
+
+    </div>
+  </body>
+</html>

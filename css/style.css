@@ -1,0 +1,20 @@
+body {
+  font-family: Impact;
+  color: red;
+  background: #ffffcc url("eevee.jpg") no-repeat scroll 100% 0%;
+}
+
+button {
+  font-family: Impact;
+  color: blue;
+}
+
+input {
+  font-family: Impact;
+  color: blue;
+}
+
+form {
+  font-family: Impact;
+  color: blue;
+}
